@@ -1,0 +1,107 @@
+.header {
+
+  .head {
+    margin: auto;
+    margin-top:  3.44vw;
+    margin-bottom: 10.42vw;
+    width:   77.78vw;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 11.11vw;
+      height: 3.47vw;
+      background:  url(../img/header/logo/logo@3x.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .menu {
+      justify-content: space-around;
+      width: 51.39vw;
+      align-items: center;
+
+      .menu_item {
+        display: block;
+        font-size: 14px;
+
+        .i {
+          font-size: 0.87vw;
+          text-decoration: none;
+          color: #000;
+
+        }
+      }
+    }
+    .upload-sketch {
+      height: 3.47vw;
+      width: 12.5vw;
+      display: flex;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background: rgba(25, 104, 252, 1);
+
+      span {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 1.04vw;
+        margin: auto;
+      }
+    }
+  }
+  .launch-websites {
+    flex-direction: column;
+    width: 41.67vw;
+    margin-left: 11.11vw;
+
+    h1 {
+      margin-bottom: 2vw;
+      font-size: 53px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: #11223f;
+    }
+
+    p {
+      font-size: 28px;
+      color: #11223f;
+      line-height: 3vw;
+      width: 100%;
+      margin-bottom: 2.5vw;
+    }
+
+    .upload-sketch {
+      height: 3.47vw;
+      width: 20.83vw;
+      display: flex;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background: rgba(25, 104, 252, 1);
+
+      span {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 1.04vw;
+        margin: auto;
+      }
+    }
+
+    }
+  .images {
+    div[class^="img"] {
+      position: absolute;
+    }
+
+    .img-upload-download {
+      top: 25vw;
+      right: 12.7vw;
+      width: 38.6vw;
+      height: 34.86vw;
+      background: url(../img/header/upload_download/illustration-main.png)no-repeat center top;
+      background-size: contain;
+      z-index: -1;
+    }
+
+  }
+}
