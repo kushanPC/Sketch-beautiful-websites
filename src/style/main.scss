@@ -1,0 +1,26 @@
+@import 'template/colors.scss';
+
+@import 'template/header.scss';
+@import 'template/advantage.scss';
+@import 'template/client.scss';
+@import 'template/footer.scss';
+
+html { font-family: 'Inter', sans-serif; }
+
+body {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background-color: $lightGrey;
+  font-size:  0.87vw;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.d-flex {
+  display: flex;
+}
