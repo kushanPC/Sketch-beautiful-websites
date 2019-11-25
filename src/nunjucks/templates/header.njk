@@ -1,28 +1,31 @@
 <div class="header">
+
   <div class="head d-flex">
-
     <div class="logo"></div>
-
     {% include "src/nunjucks/nav/nav.njk" %}
-
-
   </div>
 
   <div class="launch-websites d-flex">
     <h1>Launch beautiful websites directly from Sketch</h1>
-
     <p>
-			Create pixel perfect websites, landing pages
-			& portfolios directly from your Sketch designs
+      Create pixel perfect websites, landing pages
+      & portfolios directly <br> from your Sketch designs
     </p>
-
-    <a href="#" class="upload-sketch d-flex"><span>Upload Your Sketch File</span></a>
+    <a href="#" class="upload-sketch d-flex">
+      <span>Upload Your Sketch File</span>
+    </a>
   </div>
 
   <div class="images">
-    {% for pictures in images  %}
-      <div class={{pictures}}></div>
+    {% for pictures in headerScenery  %}
+    <div class={{pictures}}></div>
     {% endfor %}
+    
+    {% for dots in backgroundDots  %}
+    <div class={{dots}}></div>
+    {% endfor %}
+
+
   </div>
 
 </div>

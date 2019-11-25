@@ -1,0 +1,81 @@
+footer {
+	display: flex;
+	width: 100vw;
+	height: 9.03vw;
+	background-color: $gray;
+	overflow-y: hidden;
+
+	.footer-content {
+		width:77.78vw;
+		margin: auto;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			width: 17.36vw;
+			height:3.47vw;
+			background-color: #eff3fb;
+			background:  url(../img/footer/logo.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		.menu {
+      justify-content: space-between;
+      width: 28vw;
+			margin-left: 4.86vw;
+
+      .menu_item {
+        display: block;
+
+        .i {
+          font-size: 0.97vw;
+          text-decoration: none;
+          color: $dark-blue-grey;
+					width: 8.33vw;
+					height: 3.47vw;
+        }
+      }
+    }
+
+		.social {
+			display: flex;
+
+			a {
+				width: 3.47vw;
+				height: 3.47vw;
+				display: block;
+				background: url(../img/footer/fb.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 0.69vw 1.39vw;
+			}
+
+			a:last-child {
+				background: url(../img/footer/inst.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 1.39vw 1.39vw;
+			}
+		}
+	}
+
+	.vincent {
+		width: 6.25vw;
+		height: 1vw;
+		position: relative;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: -1.99vw;
+			left: 0;
+			background: url(../img/footer/vincent.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size:  8.33vw 7vw;
+			width: 8.33vw;
+			height:7vw;
+		}
+	}
+}

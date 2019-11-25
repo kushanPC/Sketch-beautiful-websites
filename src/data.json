@@ -1,0 +1,63 @@
+{
+	"headerNav" : ["How it works", "Features", "Use cases", "Schedule a demo"],
+	"footerNav" : ["Contact", "Feedback", "Join our Slack", "Terms"],
+	"headerScenery" : ["img-background", "img-upload-download"],
+	"backgroundDots" : ["background-dots-1", "background-dots-2", "background-dots-3", "background-dots-4","background-dots-5","background-dots-6","background-dots-7","background-dots-8","background-dots-9",	"background-dots-10"],
+
+	"stepsForUse" : [
+		{
+			"title":"upload-sketch",
+			"step":"Step 1",
+			"img" :"img-upload",
+			"description":"Upload design for your site, landing page or portfolio"
+		},
+		{
+			"title":"Publish website",
+			"step":"Step 1",
+			"img" :"img-download",
+			"description":"Upload design for your site, landing page or portfolio"
+		},
+		{
+			"title":"Add domain",
+			"step":"Step 1",
+			"img" :"img-add-domain",
+			"description":"Upload design for your site, landing page or portfolio"
+		}
+	],
+
+	"sketchOption" : [
+		{
+			"title":"Pixel perfect output",
+			"img" :"img-pixel-perfect",
+			"description":"Crisp, pixel-perfect landing pages without bothering your developers"
+		},
+		{
+			"title":"Flexible & responsive",
+			"img" :"img-flexible",
+			"description":"Your web pages will flexibly adapt to different browser window sizes"
+		},
+		{
+			"title":"Complete code freedom",
+			"img" :"img-complete-code",
+			"description":"VanGoux gives you source code of your website, so you can add your own logic"
+		}
+	],
+
+	"whatYouCan" : [{
+		"img" : "img-prototypes",
+		"description" : "Make realistic prototypes"
+	},
+	{
+		"img" : "img-MVP",
+		"description" : "Build an MVP as quickly as you can design"
+	},
+	{
+		"img" : "img-pixel-perfect",
+		"description" : "Create pixel-perfect landing pages"
+	},
+	{
+		"img" : "img-your-product",
+		"description" : "Generate a design system for your product"
+	}
+	]
+}
