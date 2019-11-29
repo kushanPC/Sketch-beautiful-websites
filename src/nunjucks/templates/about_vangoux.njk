@@ -17,7 +17,9 @@
 				</div>
 
 				<p class="review-text">
-					“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”
+					<span class="desktop">“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”</span>
+					<span class="mobail">“Thanks to VanGoux, our senior frontend developer was 70% faster in building React.js components!”</span>
+
 				</p>
 
 			</div>
@@ -48,7 +50,7 @@
 	</div>
 
 
-	<h2 class="h2">How VanGoux works</h2>
+	<h2 class="caption">How VanGoux works</h2>
 
 	<div class="content-how-it-works d-flex">
 		{% for i in stepsForUse %}
@@ -58,13 +60,13 @@
 				<h3>{{i.title}}</h3>
 				<p>{{i.description}}</p>
 				<div class="bottom-line"></div>
-				<div class={{item.img}}></div>
+				<div class={{i.img}}></div>
 			</div>
 
 		{% endfor %}
 	</div>
 
-	<h2 class="h2">Features</h2>
+	<h2 class="caption">Features</h2>
 
 	<div class="content-features d-flex">
 		{% for i in sketchOption %}
@@ -85,7 +87,7 @@
 		{% endfor %}
 	</div>
 
-	<h2 class="h2">What can you do with VanGoux	</h2>
+	<h2 class="caption">What can you do with VanGoux	</h2>
 
 	<div class="content-what-you-can d-flex">
 		{% for i in whatYouCan %}

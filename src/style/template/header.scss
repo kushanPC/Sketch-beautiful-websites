@@ -50,6 +50,7 @@
         font-size: 1.04vw;
       }
     }
+
   }
 
   .launch-websites {
@@ -69,7 +70,7 @@
 
     p {
       margin-bottom: 2.78vw;
-      width: 100%;
+      width: 52%;
       font-size: 1.39vw;
       line-height: 2.78vw;
       color: $dark-blue-grey;
@@ -94,6 +95,9 @@
     }
 
   }
+  .visit-desktop {
+    display: none;
+  }
   .images {
     div[class^="img"] {
       position: absolute;
@@ -104,14 +108,14 @@
       right: 11.11vw;
       width: 41.6vw;
       height: 34.86vw;
-      background: url(../img/header/upload_download/illustration-main.png)no-repeat center top;
+      background: url(../img/header/upload_download/illustration-main.png) no-repeat center top;
       background-size: cover;
       z-index: -1;
     }
   }
 
   div[class^="background-dots"] {
-    background: url(../img/background-dots.png)no-repeat center top;
+    background: url(../img/background-dots.png) no-repeat center top;
     background-size: cover;
     position: absolute;
   }
@@ -184,5 +188,16 @@
     left: 85vw;
     width: .7vw;
     height: .7vw;
+  }
+}
+@media screen and (min-width: 1000px){
+  .header {
+    .launch-websites{
+      .upload-sketch{
+        .mobail{
+          display: none;
+        }
+      }
+    }
   }
 }

@@ -13,15 +13,15 @@
 		},
 		{
 			"title":"Publish website",
-			"step":"Step 1",
+			"step":"Step 2",
 			"img" :"img-download",
-			"description":"Upload design for your site, landing page or portfolio"
+			"description":"You get a publicly shareable link for your website"
 		},
 		{
 			"title":"Add domain",
-			"step":"Step 1",
+			"step":"Step 3",
 			"img" :"img-add-domain",
-			"description":"Upload design for your site, landing page or portfolio"
+			"description":"Host it on a new or existing domain name"
 		}
 	],
 

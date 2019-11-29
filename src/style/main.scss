@@ -1,16 +1,21 @@
 @import 'template/colors.scss';
 
-@import 'template/our_story.scss';
+@import 'template/our-story.scss';
 @import 'template/header.scss';
-@import 'template/about_vangoux.scss';
+@import 'template/about-vangoux.scss';
 @import 'template/footer.scss';
+
+@import'template/media/media-header.scss';
+@import'template/media/media-about-vangoux.scss';
+@import'template/media/media-our-story.scss';
+@import'template/media/media-footer.scss';
 
 html { font-family: 'Inter', sans-serif; }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #f6f9ff;
   overflow-x: hidden;
 
 }
@@ -34,7 +39,7 @@ h3 {
   padding: 0;
 }
 
-.h2 {
+.caption {
   width: 77.78vw;
   font-size: 2.08vw;
   line-height: 4.16vw;
@@ -49,7 +54,7 @@ h3 {
     width: 5.56vw;
     border-bottom: solid $blue 0.16vw;
     position: absolute;
-    top: 100%;
+    bottom: 0;
     left: -2.78vw;
   }
 
@@ -58,7 +63,34 @@ h3 {
     width: 5.56vw;
     border-bottom: solid #d1e1fe 0.15vw;
     position: absolute;
-    top: 104.5%;
+    bottom: -0.15vw;
     left: -2.78vw;
+  }
+}
+@media  screen and (max-width: 1000px) {
+  .caption {
+    width: 81.25vw;
+    margin-bottom: 9.38vw;
+    font-size: 4.69vw;
+    line-height: 9.38vw;
+
+    &::before {
+      content: "";
+      width: 12.5vw;
+      border-bottom: solid $blue 0.3vw;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    &::after {
+      content: "";
+      width: 12.5vw;
+      border-bottom: solid #d1e1fe 0.3vw;
+      position: absolute;
+      bottom: -0.3vw;
+      left: 0;
+    }
+
   }
 }
