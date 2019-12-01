@@ -2,6 +2,7 @@
 
 const gulp = require('gulp');
 const njkRender = require('gulp-nunjucks-render');
+const data = require('gulp-data');
 const prettify = require('gulp-html-beautify');
 const watch = require('gulp-watch');
 const prefixer = require('gulp-autoprefixer');
@@ -13,9 +14,8 @@ const cssmin = require('gulp-minify-css');
 const imagemin = require('gulp-imagemin');
 const pngquant = require('imagemin-pngquant');
 const rimraf = require('rimraf');
-const browserSync = require("browser-sync");
+const browserSync = require('browser-sync');
 const reload = browserSync.reload;
-const data = require('gulp-data');
 
 const path = {
     build: { //куда выплюнуть
@@ -46,7 +46,7 @@ const path = {
 };
 
 
-var config = {
+const config = {
     server: {
         baseDir: './build'
     },
