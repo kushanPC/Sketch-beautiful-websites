@@ -1,0 +1,38 @@
+.about-us {
+	width: 72.92vw;
+	justify-content: space-between;
+	margin-left: 15.28vw;
+	margin-bottom: 8.4vw;
+
+	.story {
+		width: 29.17vw;
+		height: 20.49vw;
+		flex-direction: column;
+
+		h3 {
+			font-size: 1.39vw;
+			line-height: 2.78vw;
+			font-weight: 500;
+			margin-bottom: 1.39vw;
+			position: relative;
+
+			&::before {
+				content: "";
+				width: 2.5vw;
+				height: 2.15vw;
+				background:  url(../img/our-story/icon1.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+				position: absolute;
+				right: 105%;
+				top:5%;
+			}
+		}
+
+		p {
+			font-size: 1.11vw;
+			line-height: 2.08vw;
+			width: 28vw;
+		}
+	}
+}

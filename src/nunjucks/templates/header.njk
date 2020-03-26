@@ -1,0 +1,35 @@
+<div class="header">
+
+  <div class="head d-flex">
+    <div class="logo"></div>
+    {% include "src/nunjucks/nav/nav.njk" %}
+  </div>
+
+  <div class="launch-websites d-flex">
+    <h1>Launch <span>beautiful</span> websites directly from Sketch</h1>
+    <p>
+      Create pixel perfect websites, landing pages
+      & portfolios directly  from your Sketch designs
+    </p>
+    <a href="#" class="upload-sketch d-flex">
+      <span class="desktop">Upload Your Sketch File</span>
+      <span class="mobail">See VanGoux in action</span>
+    </a>
+  </div>
+
+  <a href="#" class="visit-desktop d-flex">
+    <span>Please visit our desktop site to upload your Sketch designs</span>
+  </a>
+  <div class="images">
+    {% for pictures in headerScenery  %}
+    <div class={{pictures}}></div>
+    {% endfor %}
+
+    {% for dots in backgroundDots  %}
+    <div class={{dots}}></div>
+    {% endfor %}
+
+
+  </div>
+
+</div>

@@ -1,0 +1,295 @@
+@media  screen and (max-width: 1000px) {
+	.about-vangoux {
+		.customers-reviews {
+			margin-bottom: 8.33vw;
+			width: 84.38vw;
+			height: 101vw;
+			flex-wrap: wrap;
+
+
+			.review-card {
+				width: 100%;
+				height: 43.75vw;
+
+				.customer-info-review {
+					width: 85.19%;
+					margin: 6.25vw;
+					.customer-photo-info {
+						height: 15.63vw;
+						margin-bottom: 6.25vw;
+
+						div[class^="photo"] {
+							margin-right: 3.13vw;
+							width: 15.63vw;
+							height: 15.63vw;
+						}
+
+						.name-position {
+							height: 9.38vw;
+							justify-content: space-around;
+							margin-top: 3.13vw;
+							.customer-name {
+								font-size: 2.81vw;
+							}
+
+							.employe-info {
+								color: #1967fa;
+								font-size: 2.19vw;
+							}
+						}
+					}
+
+					.review-text {
+						height: 9.38vw;
+						font-size: 2.5vw;
+						line-height: 4.69vw;
+						margin-bottom: 0;
+						.desktop {
+							display: none;
+						}
+						.mobail {
+							display: block;
+						}
+					}
+				}
+
+				.quote-img {
+					right: -3.28vw;
+					top: -0.5vw;
+					width: 30vw;
+					height: 28vw;
+					background-size: 100%;
+				}
+			}
+		}
+
+		div[class^="content-"] {
+			width: 81.25vw;
+			margin-bottom: 8.5vw;
+		}
+
+		.how-works {
+			width: 81.25vw;
+			height: 15.88vw;
+			padding: 6.25vw;
+			padding-bottom: 3.25vw;
+			margin-bottom: 9.5vw;
+
+			&:nth-child(2) {
+				margin-top: 0;
+			}
+
+			&:last-child {
+				margin-top: 0;
+			}
+			.bottom-line {
+				height: 3.4vw;
+				width: 78vw;
+				background: #fff;
+				top:99%;
+				left: 0vw;
+
+			}
+
+			div[class^="img"] {
+				width: 6.25vw;
+				height: 6.25vw;
+				top: 6.25vw;
+				right: 6.25vw;
+			}
+
+			&:not(:last-child)::before {
+				content: "";
+				width: 1px;
+				height: 6.25vw;
+				border-right: dotted $blue 0.45vw;
+				position: absolute;
+				top: 114%;
+				left: 9.3vw;
+			}
+
+			&::after {
+				content: "";
+				width: 3.91vw;
+				height: 3.91vw;
+				z-index: 10;
+				top: 100%;
+				left: 96%;
+			}
+
+				h3 {
+					margin-bottom: 1.56vw;
+					line-height: 6.25vw;
+					font-size: 2.81vw;
+					color: #1967fa;
+					font-weight: 500;
+				}
+
+				 h4 {
+					margin-top: 0;
+					line-height: 3.13vw;
+					font-size: 1.88vw;
+					font-weight: 600;
+
+				}
+
+				p {
+						font-size: 2.5vw;
+						line-height: 4.69vw;
+				}
+		}
+
+
+		.content-features {
+		height: 112.5vw;
+	}
+
+		.option-card {
+			height: 27.05vw;
+			width: 81.25vw;
+
+			.bottom-line {
+				position: absolute;
+				height: 4.2vw;
+				width: 81.25vw;
+				background: #fff;
+				top:99%;
+				left: 0vw;
+			}
+
+			.head-option-card {
+					&:nth-child(2){
+							margin-top: 0;
+						}
+
+						&:last-child {
+							margin-top: 0;
+						}
+
+				.title {
+					display: flex;
+					width: 100%;
+					height: 11vw;
+					background-color: #f3f7ff;
+					padding: 0;
+
+					h2 {
+						margin: auto;
+						margin-left: 3.13vw;
+						font-size: 3.13vw;
+						line-height: 6.26vw;
+						color: $dark-blue-grey;
+						font-weight: 400;
+						width: 100%;
+						height: 5.56vw;
+						text-align: left 	;
+					}
+				}
+
+				div[class^="img"] {
+					width: 12.5vw;
+					height: 12.5vw;
+					justify-content: center;
+					margin-bottom: 2.78vw;
+				}
+			}
+
+			&::after {
+				content: "";
+				width: 4.91vw;
+				height: 4.91vw;
+				z-index: 10;
+				top: 100%;
+				left: 95.2%;
+			}
+
+			p {
+					width: 68.75vw;
+					height: 9.38vw;
+					margin: auto;
+					font-size: 2.5vw;
+					line-height: 4.69vw;
+					font-weight: 300;
+			}
+		}
+
+		.skill {
+			margin-bottom: 6.25vw;
+			height: 12.5vw;
+			width: 100%;
+
+			div[class^="img"] {
+				width: 12.5vw;
+				height: 100%;
+				margin-bottom: 2.78vw;
+			}
+
+			p {
+				font-size: 2.81vw;
+				line-height: 6.25vw;
+				font-weight: 500;
+				margin: auto;
+				margin-left: 3.13vw;
+			}
+		}
+
+		.how-works-whith-code {
+			width: 100vw - 9.38vw - 9.38vw;
+			padding: 9.38vw;
+			padding-top: 2vw;
+			height: 71.88vw - 12vw;
+			background-color: $blue;
+			margin-bottom: 8.33vw;
+
+			&::after {
+			display: none;
+			}
+
+			h2 {
+				width: 70vw;
+				margin-left: 0;
+				margin-bottom: 9.38vw;
+				font-size: 4.69vw;
+				line-height: 9.38vw;
+
+				&::before {
+					content: "";
+					 width: 12.5vw;
+					border-bottom: solid #fff .3vw;
+					position: absolute;
+					bottom: -1vw;
+					left: 0;
+				}
+
+				&::after {
+					content: "";
+					width: 12.5vw;
+					border-bottom: solid #6a9eff .3vw;
+					position: absolute;
+		      bottom: -1.3vw;
+		      left: 0;
+				}
+			}
+
+			p {
+				  margin-left: 0;
+					font-size: 3.13vw;
+		 			width: 75vw;
+					line-height: 6.25vw;
+					margin-bottom:  6.25vw;
+
+			}
+
+			.schedule {
+			height: 7.81vw;
+			width: 50vw;
+			margin-left: 0;
+
+				span {
+					font-weight: 600;
+					font-size: 2.19vw;
+				}
+			}
+		}
+	}
+}

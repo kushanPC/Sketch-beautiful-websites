@@ -1,0 +1,394 @@
+.about-vangoux {
+	width: 100vw;
+
+	.customers-reviews {
+		margin: auto;
+		margin-bottom: 8.33vw;
+		width: 77.78vw;
+		justify-content: space-between;
+
+		.review-card {
+			width: 37.5vw;
+			height: 19.44vw;
+			background: #fff;
+			position: relative;
+			box-shadow: 0 20px 60px 0 rgba(25, 104, 252, 0.1);
+
+			.customer-info-review {
+				width: 85.19%;
+				height:13.89vw;
+				margin: auto;
+				flex-direction: column;
+				justify-content: space-between;
+
+				.customer-photo-info {
+					height: 6.94vw;
+					margin-bottom: 2.78vw;
+
+					div[class^="photo"] {
+						margin-right: 1.39vw;
+						background-size: contain;
+						width: 6.94vw;
+						height: 6.94vw;
+					}
+
+					.photo-customer-man {
+						background: url(../img/about_goux/man/man.png) no-repeat center top;
+					}
+
+					.photo-customer-woman {
+						background: url(../img/about_goux/woomen/testimonial-picture.png) no-repeat center top;
+					}
+
+					.name-position {
+						flex-direction: column;
+						justify-content: center;
+
+						.customer-name {
+							font-size: 1.25vw;
+							color: $dark-blue-grey;
+						}
+
+						.employe-info {
+							color: #1967fa;
+							font-size: 0.97vw;
+						}
+					}
+				}
+
+				.review-text {
+					height: 4.17vw;
+					font-size: 1.11vw;
+					line-height: 2.08vw;
+					color: $dark-blue-grey;
+					margin-bottom: 0;
+
+					.mobail {
+						display: none;
+					}
+				}
+			}
+
+			.quote-img {
+				right: 0;
+				top: 0.8vw;
+				width: 11.11vw;
+				height: 8.52vw;
+				background: url(../img/about_goux/quote/illustration-quote@3x.png) no-repeat center top;
+				background-size: contain;
+				position: absolute;
+			}
+		}
+	}
+
+	div[class^="content-"] {
+		width: 77.78vw;
+		justify-content: space-between;
+		margin: auto;
+		flex-wrap: wrap;
+		margin-bottom: 8.5vw;
+	}
+
+	.how-works {
+		position: relative;
+		height: 8vw;
+		width: 16.66vw;
+		padding: 2.78vw;
+		background: #fff;
+		box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
+
+		.bottom-line {
+			position: absolute;
+			height: 1.45vw;
+			width: 20.83vw;
+			background: #fff;
+			top:100%;
+			left: 0vw;
+		}
+
+		div[class^="img"] {
+			background-size: contain;
+			position: absolute;
+			width: 2.78vw;
+			height: 2.78vw;
+			top: 2.92vw;
+			right: 2.78vw;
+		}
+
+		.img-upload {
+			background: url(../img/about_goux/cloud/cloud-1.png) no-repeat center top;
+		}
+
+		.img-download {
+			background: url(../img/about_goux/cloud/cloud-2.png) no-repeat center top;
+		}
+
+		.img-add-domain {
+			background: url(../img/about_goux/cloud/cloud-3.png) no-repeat center top;
+		}
+
+		&:not(:last-child)::before {
+			content: "";
+			width: 4.86vw;
+			height: 1px;
+			border-bottom: dotted $blue 0.2vw;
+			position: absolute;
+			top: 51%;
+			left: 101.5%;
+	 	}
+
+		&::after {
+			content: "";
+			width: 1.74vw;
+			height: 1.74vw;
+			background: url(../img/about_goux/dottes/decoration-juju@3x.png) no-repeat center top;
+			background-size: cover;
+			position: absolute;
+			z-index: 10;
+			top: 100%;
+			left: 93.8%;
+		}
+
+		&:nth-child(2) {
+			margin-top: 2.78vw;
+		}
+
+		&:last-child {
+			margin-top: 5.56vw;
+		}
+
+			h3 {
+				margin: 0;
+				margin-bottom: 1.39vw;
+				padding: 0;
+				line-height: 2.78vw;
+				font-size: 1.25vw;
+				color: #1967fa;
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+
+			 h4 {
+				 line-height: 1.39vw;
+				font-size: 0.83vw;
+				margin: 0;
+				padding: 0;
+				text-transform: uppercase;
+				font-weight: 800;
+			}
+
+			p {
+					font-size: 1.11vw;
+					line-height: 2.08vw;
+			}
+	}
+
+	.option-card {
+		flex-direction: column;
+		position: relative;
+		height: 20.14vw - 1.45vw;
+		width: 22.22vw;
+		padding: 0;
+		background: #fff;
+		box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
+
+		.bottom-line {
+			position: absolute;
+			height: 1.45vw;
+			width: 20.83vw;
+			background: #fff;
+			top:100%;
+			left: 0vw;
+		}
+
+		.head-option-card {
+
+			.title {
+				display: flex;
+				width: 13.89vw;
+				height: 8.33vw;
+				background-color: #f3f7ff;
+				padding: 0;
+
+				h2 {
+					margin: auto;
+					margin-top: 2.4vw;
+					font-size: 1.39vw;
+					line-height: 2.08vw;
+					color: $dark-blue-grey;
+					font-weight: 400;
+					width: 11.11vw;
+					height: 5.56vw;
+					text-align: left 	;
+				}
+			}
+
+			div[class^="img"] {
+				background-size: contain;
+				width: 8.33vw;
+				height: 8.33vw;
+				justify-content: center;
+				margin-bottom: 2.78vw;
+			}
+
+			.img-pixel-perfect {
+				background: url(../img/about_goux/features/icon1.png) no-repeat center top;
+			}
+
+			.img-flexible {
+				background: url(../img/about_goux/features/icon2.png) no-repeat center top;
+			}
+
+			.img-complete-code {
+				background: url(../img/about_goux/features/icon3.png) no-repeat center top;
+			}
+		}
+
+		&::after {
+			content: "";
+			width: 1.74vw;
+			height: 1.74vw;
+			background: url(../img/about_goux/dottes/decoration-juju@3x.png) no-repeat center top;
+			background-size: cover;
+			position: absolute;
+			z-index: 10;
+			top: 100%;
+			left: 93.8%;
+		}
+
+		&:nth-child(2){
+			margin-top: 2.78vw;
+		}
+
+		&:last-child {
+			margin-top: 5.56vw;
+		}
+
+		p {
+				width: 15vw;
+				height: 6.25vw;
+				margin: auto;
+				font-size: 1.11vw;
+				line-height: 2.08vw;
+				font-weight: 300;
+		}
+	}
+
+	.skill {
+		position: relative;
+		margin-bottom: 2.78vw;
+		height: 5.56vw;
+		width: 37.5vw;
+		background: #fff;
+		box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
+
+		div[class^="img"] {
+			background-size: contain;
+			width: 5.56vw;
+			height: 100%;
+			justify-content: center;
+			margin-bottom: 2.78vw;
+		}
+
+		.img-prototypes {
+			background: url(../img/about_goux/What-can/icon1.png) no-repeat center top;
+		}
+
+		.img-MVP {
+			background: url(../img/about_goux/What-can/icon2.png) no-repeat center top;
+		}
+
+		.img-pixel-perfect {
+			background: url(../img/about_goux/What-can/icon3.png) no-repeat center top;
+		}
+
+		.img-your-product {
+			background: url(../img/about_goux/What-can/icon4.png) no-repeat center top;
+		}
+
+		p {
+			font-size: 1.25vw;
+			font-weight: 500;
+			margin: auto;
+			margin-left: 1.39vw;
+		}
+	}
+
+	.how-works-whith-code {
+		width: 100vw;
+		height: 31.25vw;
+		background-color: $blue;
+		position: relative;
+		margin-bottom: 8.33vw;
+		&::after {
+		content: "";
+		position: absolute;
+		display: block;
+		background: url(../img/about_goux/brain/brain.png) no-repeat center top;
+		background-size: contain;
+		width: 41.6vw;
+		height: 37.92vw;
+		top: 1.3vw;
+		right: 0.85vw;
+		}
+
+		h2 {
+			padding-top: 5.56vw;
+			width: 77.78vw;
+			font-size: 2.08vw;
+			line-height: 4.16vw;
+			margin: auto;
+			margin-bottom: 4.17vw;
+			font-weight: 400;
+			text-transform: uppercase;
+			position: relative;
+			color: #fff;
+
+			&::before {
+				content: "";
+				width: 5.56vw;
+				border-bottom: solid #fff 0.15vw;
+				position: absolute;
+				top: 100%;
+				left: -2.78vw;
+			}
+
+			&::after {
+				content: "";
+				width: 5.56vw;
+				border-bottom: solid #6a9eff 0.15vw;
+				position: absolute;
+				top: 101%;
+				left: -2.78vw;
+			}
+		}
+
+		p {
+				 color: #fff;
+				 font-size: 1.39vw;
+				 width: 43vw;
+				 line-height: 2.78vw;
+				 margin-bottom:  2.78vw;
+				 margin-left: 11.11vw;
+		}
+
+		.schedule {
+		height: 3.47vw;
+		width: 22.22vw;
+		margin-left: 11.11vw;
+		display: flex;
+		text-decoration: none;
+		outline: none;
+		color: $blue;
+		box-shadow: 4px 4px 20px 0 rgba(255, 255, 255, 0.4);
+  	background-color: #ffffff;
+
+			span {
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 0.97vw;
+				margin: auto;
+			}
+		}
+	}
+}

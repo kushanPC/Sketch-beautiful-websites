@@ -1,0 +1,102 @@
+@media  screen and (max-width: 1000px) {
+
+	.header {
+	  margin-bottom: 11.11vw;
+
+	  .head {
+	    padding-top: 6.41vw;
+	    margin-bottom: 10.42vw;
+	    width: 75vw;
+
+	    .logo {
+	      width: 25vw;
+	      height: 7.81vw;
+	    }
+
+	    .menu {
+				display: none;
+	    }
+	  }
+
+
+	  .launch-websites {
+	    margin-left: 12.5vw;
+	    width: 70vw;
+			margin-bottom: 79vw;
+	    h1 {
+	      margin-bottom: 3.13vw;
+	      width: 70vw;
+	      font-size: 6.25vw;
+	      font-weight: 500;
+	      line-height: 9.38vw;
+	      letter-spacing: 0.16vw;
+				span {
+					display: none;
+				}
+	    }
+
+	    p {
+	      margin-bottom: 6.25vw;
+	      width: 100%;
+	      font-size: 3.13vw;
+	      line-height: 6.25vw;
+	    }
+
+	    .upload-sketch {
+	      width: 46.88vw;
+	      height: 7.81vw;
+
+	      .mobail {
+					display: inline;
+	        margin: auto;
+	        text-transform: uppercase;
+	        font-weight: 200;
+	        font-size: 2.19vw;
+	      }
+				.desktop {
+					display: none;
+				}
+
+	    }
+
+	  }
+		.visit-desktop {
+			width: 100vw;
+			height: 28.13vw;
+			display: flex;
+			text-decoration: none;
+			outline: none;
+			color: #fff;
+			background: rgba(25, 104, 252, 1);
+
+			span {
+				margin: auto;
+				width: 81.25vw;
+				height: 18.75vw;
+				padding-top: 6.3vw;
+				line-height: 6.25vw;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 3.13vw;
+			}
+		}
+	  .images {
+	    div[class^="img"] {
+	      position: absolute;
+	    }
+
+	    .img-upload-download {
+	      top: 87.5vw;
+				left:3vw;
+	      width: 93.59vw;
+	      height: 78.44vw;
+
+	    }
+	  }
+
+	  div[class^="background-dots"] {
+			display: none;
+	  }
+	}
+}

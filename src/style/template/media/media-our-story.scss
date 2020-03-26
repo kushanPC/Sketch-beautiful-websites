@@ -1,0 +1,38 @@
+@media  screen and (max-width: 1000px) {
+	.about-us {
+		width: 72.92vw;
+		height: 70vw;
+		margin-left: 15.28vw;
+		margin-bottom: 30.53vw;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.story {
+			width: 29.17vw;
+			height: 20.49vw;
+			margin-left: 9.38vw;
+
+			h3 {
+				width: 39.17vw;
+				font-size: 3.13vw;
+				line-height: 6.26vw;
+				font-weight: 500;
+				margin-bottom: 3.13vw;
+
+				&::before {
+					width: 6.25vw;
+					height: 5.16vw;
+					right: 105%;
+					top:5%;
+				}
+			}
+
+			p {
+				font-size: 2.5vw;
+				line-height: 4.69vw;
+				width: 71.88vw;
+				height: 37.5vw;
+			}
+		}
+	}
+}

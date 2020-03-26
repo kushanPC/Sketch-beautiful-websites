@@ -1,0 +1,111 @@
+<div class="about-vangoux">
+
+	<div class="customers-reviews d-flex">
+
+		<div class="review-card d-flex">
+
+			<div class="customer-info-review d-flex">
+				<div class="customer-photo-info d-flex">
+
+					<div class="photo-customer-man"></div>
+
+					<div class="name-position d-flex">
+						<p class="customer-name">John Doe</p>
+						<p class="employe-info">CEO, PrettyDopeDesigns</p>
+					</div>
+
+				</div>
+
+				<p class="review-text">
+					<span class="desktop">“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”</span>
+					<span class="mobail">“Thanks to VanGoux, our senior frontend developer was 70% faster in building React.js components!”</span>
+
+				</p>
+
+			</div>
+			<div class="quote-img"></div>
+		</div>
+
+		<div class="review-card d-flex">
+
+			<div class="customer-info-review d-flex">
+				<div class="customer-photo-info d-flex">
+
+					<div class="photo-customer-woman"></div>
+
+					<div class="name-position d-flex">
+						<p class="customer-name">Jane Goodman</p>
+						<p class="employe-info">Founder, ImpactNation</p>
+					</div>
+
+				</div>
+
+				<p class="review-text">
+					“It was awesome to see VanGoux turn our MVP designs into code within minutes.”
+				</p>
+
+			</div>
+			<div class="quote-img"></div>
+		</div>
+	</div>
+
+
+	<h2 class="caption">How VanGoux works</h2>
+
+	<div class="content-how-it-works d-flex">
+		{% for i in stepsForUse %}
+
+			<div class="how-works">
+				<h4>{{i.step}}</h4>
+				<h3>{{i.title}}</h3>
+				<p>{{i.description}}</p>
+				<div class="bottom-line"></div>
+				<div class={{i.img}}></div>
+			</div>
+
+		{% endfor %}
+	</div>
+
+	<h2 class="caption">Features</h2>
+
+	<div class="content-features d-flex">
+		{% for i in sketchOption %}
+			<div class="option-card d-flex">
+
+				<div class="head-option-card d-flex">
+					<div class="{{i.img}}"></div>
+
+					<div class="title">
+						<h2>{{i.title}}</h2>
+					</div>
+				</div>
+
+				<p>{{i.description}}</p>
+
+				<div class="bottom-line"></div>
+			</div>
+		{% endfor %}
+	</div>
+
+	<h2 class="caption">What can you do with VanGoux	</h2>
+
+	<div class="content-what-you-can d-flex">
+		{% for i in whatYouCan %}
+			<div class="skill d-flex">
+				<div class="{{i.img}}"></div>
+				<p>{{i.description}}</p>
+			</div>
+		{% endfor %}
+	</div>
+
+	<div class="how-works-whith-code">
+		<h2>Don’t know how to work with code?</h2>
+
+		<p>Schedule a call and we'll show you how you could become a design-to-code rockstar using VanGoux.</p>
+
+		<a href="#" class="schedule d-flex">
+			<span>Schedule a call with us</span>
+		</a>
+
+	</div>
+</div>
